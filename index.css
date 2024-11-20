@@ -1,93 +1,19 @@
 h3{
     color: rgb(204, 202, 202);
 }
-br{ color: black;}
 
-
-
-
-
-
-
-
-
-
-/* ARRUMO DEPOIS
-- Estilos Gerais
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+br{ 
+    color: black;
 }
 
-.form-container {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 100%;
-    max-width: 400px;
-}
-
-h2 {
+header{
     text-align: center;
-    color: #333;
 }
-
-- Estilos para o formulário 
-form {
-    display: flex;
-    flex-direction: column;
+main{
+    margin: auto 5%;
 }
-
-label {
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: #333;
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
 }
-
-input[type="text"], input[type="email"], input[type="tel"] {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-input[type="checkbox"] {
-    margin-right: 10px;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-- Estilo de feedback (mensagem de sucesso ou erro)
-#feedback {
-    text-align: center;
-    font-size: 16px;
-    margin-top: 20px;
-    color: red;
-}
-
-- Estilo para quando a inscrição for bem-sucedida
-#feedback.success {
-    color: green;
-}
-
-*/
