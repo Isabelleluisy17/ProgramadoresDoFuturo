@@ -1,0 +1,16 @@
+body{ 
+    background-color: #bfffa6;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-color: rgb(12, 6, 6);
+    border-style: solid;
+}
+div{
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}

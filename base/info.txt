@@ -11,3 +11,13 @@ telefone:(61) 3369-3355
 Delivery:(61) 99561-2964
 Email: contato@casanordestinadf.com.br
 perfil: @casanordestinaparanoa
+
+PROIDUTOS:
+
+segunda: dia das castanhas e frutas secas
+terça: terça dos temperos
+quarta: quarta da saudade
+quinta: quinta dos camarões e pescados
+sexta: sexta das polpas de frutas
+sábado: sábado dos doces a granel
+
