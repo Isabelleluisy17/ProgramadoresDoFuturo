@@ -1,19 +1,61 @@
-h3{
-    color: rgb(204, 202, 202);
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f9;
+   margin: 0;
+   padding: 0;
+   display: block;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
 }
 
-br{ 
-    color: black;
+header {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 30px;
+   width: 100%;
+   max-width: 100%;
+   text-align: center;
+   animation: mudarCorHeader 1.5s ease-in-out forwards;
+}
+header>h1{
+   animation: mudarCorHeaderH1 1.5s ease-in-out forwards;
 }
 
-header{
-    text-align: center;
+main {
+   background-color: #fff;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 30px;
+   margin: 10px auto;  
+   width: 100%;
+   max-width: 80%;
 }
-main{
-    margin: auto 5%;
+
+a {
+   text-decoration: none;
+   color: black;
+   transition: font-size 0.3s ease;
+   margin-right: 5px;
+   animation: mudarCorHeaderH1 2s ease-in-out forwards;
 }
-a{
-    text-decoration: none;
-    color: black;
-    margin-right: 12px;
+
+a:hover {
+   font-size: large;
+   transform: scale(1.01);
+}
+
+@keyframes mudarCorHeader {
+   0% {
+      background-color: #fff;
+   }
+   100% {
+      background-color: rgb(139, 29, 29);
+   }
+}
+@keyframes mudarCorHeaderH1 {
+   0% {
+      color: black;
+   }
+   100% {
+      color: #f4f4f9;
+   }
 }

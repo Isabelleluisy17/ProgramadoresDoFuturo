@@ -1,19 +1,56 @@
-h3{
-   color: rgb(204, 202, 202);
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f9;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
 }
 
-br{ 
-   color: black;
-}
-
-header{
+header {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+   padding: 30px;
+   margin: 0 5%;
+   width: 100%;
+   max-width: 25%;
    text-align: center;
+   animation: mudarCorHeader 1.5s ease-in-out forwards;
 }
-main{
-   margin: auto 5%;
+header>h1{
+   animation: mudarCorHeaderH1 1.5s ease-in-out forwards;
 }
-a{
+
+main {
+   background-color: #fff;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 30px;
+   border-radius: 8px;
+   margin: 10px auto;  
+   width: 100%;
+   max-width: 80%;
+}
+
+a {
    text-decoration: none;
-   color: rgba(0, 0, 0, 0.7);
-   margin-right: 12px;
+   color: black;
+   transition: font-size 0.3s ease;
+   margin-right: 5px;
+   animation: mudarCorHeaderH1 2s ease-in-out forwards;
+}
+
+a:hover {
+   font-size: large;
+   transform: scale(1.01);
+}
+
+@keyframes mudarCorHeaderH1 {
+   0% {
+      color: #f4f4f9;
+   }
+   100% {
+      color: black;
+   }
 }
