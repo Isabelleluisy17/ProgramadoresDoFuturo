@@ -16,7 +16,7 @@
 - [x] escolher uma das três opções (opção 2).
 - [x] escolher a empresa (casa nordestina, paranoá).
 - [x] Captar material da empresa, como horário de funionamento, telefones para contato e tals (pasta [base](./base/)).
-    - [] Logo da empresa
+    - [x] Logo da empresa
     - [x] Contatos da empresa
         - [x] Sobre Nós
             - [x] Redes Sociais
@@ -29,3 +29,17 @@
     - [x] Parte do CSS
     - [x] Parte do JS
 - [ ] Versão funcional e atual do projeto: ---
+
+---
+
+## Requisitos do Projeto📒
+- [ ] HTML
+    - [x] Pelo menos três páginas
+    - [x] HTML semântico
+    - [x] Pelo menos um formulário simples
+    - [ ] Imagens e links
+- [ ] CSS
+    - [x]  Visualmente agradável
+    - [ ]  Cores definidas e identidade visual
+- [x] JS
+    - [x] Pelo menos um elemento interativo 
