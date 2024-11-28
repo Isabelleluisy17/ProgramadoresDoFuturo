@@ -26,6 +26,6 @@
     - [x] Informações de Funcionamento
 - [ ] Estrutura base do site, o mais básico e funcional possível (versão Beta).
     - [ ] Parte do HTML
-    - [ ] Parte do CSS
+    - [x] Parte do CSS
     - [x] Parte do JS
 - [ ] Versão funcional e atual do projeto: ---
