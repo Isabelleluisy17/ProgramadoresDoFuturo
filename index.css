@@ -1,5 +1,5 @@
 body{
-    background-color: #bfffa6;
+    background-color: rgba(3, 172, 59, 0.699);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,7 +9,7 @@ header{
     margin: 0 auto;
     width: 100%;
     max-width: 90%;
-    animation: mudarCor 1.5s ease-in-out forwards;
+    animation: mudarCor 1.5s ease forwards;
 }
 header>h1{
     animation: mudarCorTexto 1.5s ease-in-out forwards;
@@ -29,14 +29,14 @@ main{
 }
 
 #sobreNos {
-    background-color: rgb(52, 231, 141);
-    margin: 0 auto;
+    background-color: #4aebdd;
+    margin: 5px auto;
     width: 100%;
     max-width: 70%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 8px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+    padding: 7px;
 }
 #funcionamento{
     text-align: center;
@@ -53,12 +53,16 @@ a:hover{
     color: rgba(0, 0, 0, 0.5);
 }
 
+p {
+    margin: 5px;
+}
+
 @keyframes mudarCor {
     0% {
-        background-color: #bfffa6;
+        background-color: rgba(1, 194, 65, 0);
     }
     100% {
-        background-color: chocolate;
+        background-color: #593C23;
     }
 }
 @keyframes mudarCorTexto {
