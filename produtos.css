@@ -2,8 +2,8 @@ body{
     background-color: #bfffa6;
 }
 img {
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     object-fit: cover;
     border-color: rgb(12, 6, 6);
@@ -13,4 +13,5 @@ div{
     float: left;
     text-align: center;
     font-size: 25px;
+    margin: 0px 60px 60px
 }

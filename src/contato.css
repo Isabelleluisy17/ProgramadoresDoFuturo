@@ -10,7 +10,8 @@ header{
    text-align: center;
 }
 main{
-   margin: auto 5%;
+   margin: 0 auto;
+   align-items: center;
 }
 a{
    text-decoration: none;
@@ -18,4 +19,4 @@ a{
    margin-right: 12px;
 }
 body{background-color: #bfffa6;
-}}
+}
