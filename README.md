@@ -1,6 +1,6 @@
 # ProgramadoresDoFuturo
  
-![Version Shield](https://img.shields.io/badge/Version-0.1-red)
+![Version Shield](https://img.shields.io/badge/Version-0.2-red)
 
 **Site da Empesa "Casa Nordestina" para o projeto final do curso Programadores De Futuro**
 
@@ -28,7 +28,7 @@
     - [x] Parte do HTML
     - [x] Parte do CSS
     - [x] Parte do JS
-- [x] Versão funcional e atual do projeto: v0.1
+- [x] Versão funcional e atual do projeto: v0.2
 
 ---
 
