@@ -20,3 +20,19 @@ a{
 }
 body{background-color: #bfffa6;
 }
+
+#voltar {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+   text-decoration: none;
+   text-align: center;
+   margin: 20px;
+}
+#voltar:hover {
+   background-color: rgb(52, 52, 153);
+}  
